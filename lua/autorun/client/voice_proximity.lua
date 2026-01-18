@@ -1,4 +1,4 @@
-local voiceFalloff = 200
+local voiceFalloff = 400
 
 hook.Add( "Think", "Voice_Proximity_Think", function()
         for _, ply in ipairs( player.GetHumans() ) do
